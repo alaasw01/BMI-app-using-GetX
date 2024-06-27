@@ -1,0 +1,16 @@
+{
+    "bmi":"BMI Calcullator",
+    "male":"Male",
+    "female":"Female",
+    "height":"Height",
+    "cm":"cm",
+    "weight":"Weight",
+    "age":"Age",
+    "calculate":"Calculate your BMI",
+    "result":"BMI Result",
+    "your":"Your BMI is",
+    "message":"You are",
+    "ok":"Ok",
+    "en":"English",
+    "ar":"Arabic"
+}
