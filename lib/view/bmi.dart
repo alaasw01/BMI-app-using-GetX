@@ -1,6 +1,5 @@
 import 'dart:math';
 import 'package:bmi/controller/bmi_controller.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -317,7 +316,7 @@ class _BmiViewState extends State<BmiView> {
                 height: 20,
               ),
               Expanded(
-                child: Container(
+                child: SizedBox(
                   width: double.infinity,
                   child: Column(
                     children: [
@@ -325,7 +324,7 @@ class _BmiViewState extends State<BmiView> {
                           activeColor: Colors.deepOrange,
                           title: Text(
                             AppLocalizations.of(context)!.en,
-                            style: TextStyle(fontSize: 20),
+                            style: const TextStyle(fontSize: 20),
                           ),
                           value: 'en',
                           groupValue: controller.selectedLang.value,
@@ -336,7 +335,7 @@ class _BmiViewState extends State<BmiView> {
                           activeColor: Colors.deepOrange,
                           title: Text(
                             AppLocalizations.of(context)!.ar,
-                            style: TextStyle(fontSize: 20),
+                            style:const TextStyle(fontSize: 20),
                           ),
                           value: 'ar',
                           groupValue: controller.selectedLang.value,
